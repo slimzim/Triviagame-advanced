@@ -63,7 +63,7 @@ var questionsArray = [
 
 // TIMERS =======================================================================
 
-var timeLeft = 30;
+var timeLeft = 10;
 var interval;
 var correctCount = 0;
 var incorrectCount = 0;
