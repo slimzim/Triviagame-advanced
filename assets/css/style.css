@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/polkadots.jpg")
+}
+
+h1 {
+    color: blue;
+}
+
+.main-container {
+    background: bisque;
+    border: 10px solid black;
+}
+
+button {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 3px;
+}
+
+.question-text {
+    font-size: 24px;
+}
+
+label {
+    margin-left: 3px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#time-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#quiz-question {
+    font-size: 32px;
+}
+
+#quiz-body {
+    padding: 20px;
+}
+
