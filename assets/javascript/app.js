@@ -114,7 +114,7 @@ function stop() {
 function newQuestion(){
     $("#quiz-body").empty()
     currentScreen = "question"
-    timeLeft = 30;
+    timeLeft = 10;
     run();
     $("#time-left").html("<p>Time Remaining: " + timeLeft + " Seconds</p>")
     newQuestionDiv = $("<div>")
@@ -208,7 +208,7 @@ function endGame(){
     }      
 
 $(document).on("click", ".restart-btn", function(){
-    timeLeft = 30;
+    timeLeft = 10;
     correctCount = 0;
     incorrectCount = 0;
     unansweredCount = 0;
