@@ -1,9 +1,16 @@
+@font-face {
+    font-family: BATMAN;
+    src: url("BATMAN.OTF")
+}
+
 body {
     background-image: url("../images/polkadots.jpg")
 }
 
 h1 {
     color: blue;
+    font-family: BATMAN;
+    margin-top: 28px;
 }
 
 .main-container {
@@ -43,4 +50,5 @@ label {
 img {
     margin-bottom: 20px;
     margin-top: 10px;
+    width: 100%;
 }
